@@ -156,7 +156,7 @@
                               </Label>
                            </children>
                         </VBox>
-                        <DatePicker fx:id="fechadenacimiento" prefHeight="25.0" prefWidth="229.0" promptText="Introduzca la fecha de nacimineto">
+                        <DatePicker fx:id="fechadenacimiento" onAction="#RecogerFecha" prefHeight="25.0" prefWidth="229.0" promptText="Introduzca la fecha de nacimineto">
                            <HBox.margin>
                               <Insets left="40.0" top="20.0" />
                            </HBox.margin>

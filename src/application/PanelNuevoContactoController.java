@@ -1,6 +1,9 @@
 package application;
 
 import java.io.IOException;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
 
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
@@ -84,4 +87,9 @@ public class PanelNuevoContactoController extends AnchorPane{
 				System.out.println("Elemento seleccionado: " + newValue);
 			});
 		}
+	 @FXML
+	 public void RecogerFecha() {
+		 LocalDate localDate = fechadenacimiento.getValue();
+		 System.out.println(localDate +"por ejemplo");
+	 }
 }
