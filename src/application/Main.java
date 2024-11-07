@@ -15,7 +15,7 @@ public class Main extends Application {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("ventanamain.fxml"));
 	        Parent root = loader.load(); // Cargamos el archivo FXML
 	        primaryStage.setTitle("Agenda de Contactos");
-	        primaryStage.setScene(new Scene(root));
+	        primaryStage.setScene(new Scene(root,446,621));
 	        primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();

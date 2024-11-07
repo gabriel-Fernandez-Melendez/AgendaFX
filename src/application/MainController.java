@@ -15,6 +15,7 @@ public class MainController {
 		System.out.println("paso por aqui");
 		PanelNuevoContactoController nuevocontacto = new PanelNuevoContactoController();
 		mainPane.setCenter(nuevocontacto);
+	
 	}
 	
 	public void P_EditarContacto() {
