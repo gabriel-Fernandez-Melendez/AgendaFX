@@ -10,7 +10,7 @@
 
 <!--  POR ALGUNA RAZON SUPERIOR A MI ENTENDIMIENTO NO ES NECESARIO PONER AQUI EL CONTROLADOR -->
 
-<fx:root prefHeight="430.0" prefWidth="431.0" type="AnchorPane" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="600.0" prefWidth="500.0" type="AnchorPane" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane prefHeight="430.0" prefWidth="431.0">
          <children>

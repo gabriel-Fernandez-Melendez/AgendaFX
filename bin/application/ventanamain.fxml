@@ -8,11 +8,11 @@
 
 <!--  NUNCA OLVIDAR IMPLEMENTAR EL CONTROLLER EN LA LINEA RAIZ DEL FXML  -->
 
-<AnchorPane prefHeight="579.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
    <children>
-      <BorderPane fx:id="mainPane" prefHeight="579.0" prefWidth="486.0">
+      <BorderPane fx:id="mainPane" prefHeight="579.0" prefWidth="507.0">
          <top>
-            <MenuBar prefWidth="302.0" BorderPane.alignment="CENTER">
+            <MenuBar prefWidth="511.0" BorderPane.alignment="CENTER">
               <menus>
                 <Menu mnemonicParsing="false" text="Archivo">
                   <items>
